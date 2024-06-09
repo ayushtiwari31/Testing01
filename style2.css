@@ -1,0 +1,126 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fffefe;
+    color: #0b0a0a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin-left: 2rem;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #121111;
+    font-size: 1rem;
+}
+
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+}
+
+.navbar-search {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.search-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.search-button {
+    padding: 0.5rem 1rem;
+    background-color: #0b0a0a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-login {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.login-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+    }
+    .navbar-menu.show {
+        display: flex;
+    }
+    .navbar-item {
+        margin: 1rem 0;
+        text-align: center;
+    }
+    .navbar-toggle {
+        display: flex;
+    }
+}
+
+
+#page{
+    background-image: url('proj.jpeg');
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+ 
+#joke{
+    padding-left: 20px;
+    margin-left: 5%;
+    margin-top: 20%;
+}
+#live{
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(229, 108, 100);
+    color: #fff;
+    border-color: #fff;
+}
+#but{
+    border-radius: 100%;
+    
+}

@@ -1,0 +1,181 @@
+body{
+    background-image: url('back.jpg');
+}
+
+
+
+
+
+
+#box{
+    height: 400px;
+    width: 900px;
+    border: 0.5px solid;
+    display: flex;
+    margin-left: 12%;
+    margin-top: 120px;background-color: rgb(247, 249, 250);
+    
+}
+
+#box1{
+    height: 380px;
+    width: 400px;
+    background-image: url('img.jpg');
+    background-size: cover;
+}
+
+#box2{
+    height: 380px;
+    width: 400px ;
+    margin-left: 10px;
+    background-color: rgb(250, 252, 253);
+    
+}
+
+#sign{
+    background-color: aquamarine;
+    border-color: aliceblue;
+    color: aliceblue;
+    height: 30px;
+    width: 370px;
+    margin-top: 10px;
+    
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+#mail{
+    width: 350px;
+    height: 20px;
+}
+
+#pass{
+    width:350px ;
+    height:20px ;
+}
+
+#passe{
+    margin-top: 10px;
+    padding-top: 10px;
+     
+}
+
+#for{
+    margin-left: 110px;
+}
+
+h1{
+    color: aquamarine;
+}
+
+#para{
+    color: rgb(114, 119, 117);
+}
+
+#reg{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#foot{
+    color: rgb(91, 97, 97);
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    #box {
+        width: 100%;
+        height: auto;
+        margin: 20px;
+    }
+
+    #box1 {
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    #para {
+        font-size: 14px;
+    }
+
+    #foot {
+        font-size: 12px;
+    }
+}
